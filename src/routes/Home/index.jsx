@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner";
 import style from "./Home.module.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -49,8 +50,21 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
-        
+      <section className={style.links}>
+        <div className={style.container}>
+          <div className={style.card}>
+            <h2>Faça a sua vistoria!</h2>
+            <Link to="/vistoria">
+              <span>Clique Aqui</span>
+            </Link>
+          </div>
+          <div className={style.card}>
+            <h2>Ficou interessado</h2>
+            <Link to="/">
+              <span>Entre em contato</span>
+            </Link>
+          </div>
+        </div>
       </section>
     </>
   );
