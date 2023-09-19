@@ -1,0 +1,7 @@
+.solucao {
+    background-color: #407c3c;
+    
+    & h2,p{
+        color: #fff;
+    }
+}

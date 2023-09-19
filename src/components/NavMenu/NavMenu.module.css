@@ -1,0 +1,30 @@
+nav{
+    height: 100%;
+    
+    & ul{
+        height: 100%;
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+
+        & li{
+            list-style: none;
+
+            font-size: 35px;
+            
+            & p{
+                color: #fff;
+
+                transition: 0.4s;
+            }
+
+            & p:hover{
+                color: #9fca47;
+            }
+
+        }
+    }
+}
+
